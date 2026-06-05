@@ -1,0 +1,19 @@
+{
+  "ref_fasta": "/storage/home/hcoda1/2/hwilms3/r-mwhiteley3-0/PA14_GCF_000014625-1.fna",
+  "r1": "/storage/home/hcoda1/2/hwilms3/r-mwhiteley3-0/20260520_Illumina/PAwa_S216_R1_001.fastq.gz",
+  "r2": "/storage/home/hcoda1/2/hwilms3/r-mwhiteley3-0/20260520_Illumina/PAwa_S216_R2_001.fastq.gz",
+  "prefix": "my_barcode_pool",
+  "threads": 16,
+
+  "barcode_bed": "barcode_region.bed",
+
+  "min_qual": 30,
+  "min_depth": 10,
+
+  "bakta_db": "/storage/home/hcoda1/2/hwilms3/r-mwhiteley3-0/bakta_db/db",
+  "genus": "Pseudomonas",
+  "species": "aeruginosa",
+  "strain": "my_barcode_pool",
+
+  "output_dir": "PA14wa_BC_output"
+}
